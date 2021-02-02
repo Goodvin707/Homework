@@ -1,0 +1,9 @@
+input {
+    width: 1350px;
+	font-size: 20px;
+	padding: 10px 0 4px 100px;
+	border: 1px solid #cecece;
+	background: #F6F6f6;
+    border-radius: 8px;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
