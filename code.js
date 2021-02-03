@@ -1,5 +1,6 @@
     window.addEventListener('load', function () {
 
+        
         let butPage = document.getElementById("Button1");
         let butStyle = document.getElementById("Button2");
         butPage.addEventListener('click', function (){
