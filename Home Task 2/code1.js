@@ -6,8 +6,7 @@ var term = {
     Litvania: 31
 }
 
-function getObject(term)
-{
+function getObject(term){
     var s = "<tr><td>Страна</td><td>Температура (°C)</td></tr>";
         for(key in term) {
           s += "<tr><td>" + key + ":" + "</td><td>" + term[key] + "</td></tr>";
