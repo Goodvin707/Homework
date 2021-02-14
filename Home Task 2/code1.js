@@ -8,7 +8,7 @@ var term = {
 
 function getObject(term){
     var s = "<tr><td>Страна</td><td>Температура (°C)</td></tr>";
-        for(key in term) {
+        for(key in term){
           s += "<tr><td>" + key + ":" + "</td><td>" + term[key] + "</td></tr>";
         }
         document.getElementById("object").innerHTML = s;
@@ -26,7 +26,7 @@ function getAver(term){
     document.getElementById("average").innerHTML = aver;
 }
 
-function getMax(term) {
+function getMax(term){
     let max = 0;
 
     for(let i in term){
