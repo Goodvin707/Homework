@@ -31,8 +31,9 @@ function getMax(term){
 
     for(let i in term){
           if (term[i] > max){ 
-              max = term[i] + "°C"; 
-          } 
+              max = term[i]; 
+          }
+          max = term[i] + "°C";
     }
     document.getElementById("max").innerHTML = max;
 }
