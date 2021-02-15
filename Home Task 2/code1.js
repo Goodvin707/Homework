@@ -29,11 +29,11 @@ function getAver(term){
 function getMax(term){
     let max = 0;
 
-    for(let i in term){
-          if (term[i] > max){ 
-              max = term[i]; 
+    for(key in term){
+          if (term[key] > max){ 
+              max = term[key]; 
           }
-          max = term[i] + "°C";
+          max = term[key] + "°C";
     }
     document.getElementById("max").innerHTML = max;
 }
